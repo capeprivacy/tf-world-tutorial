@@ -25,7 +25,7 @@ Next we can launch the instances with a helper script:
 Alternatively, if they have already been created but are currently terminated, simply start them again with
 
 ```shell
-./tools/gcp/start $INSTANCE_NAMES
+./start $INSTANCE_NAMES
 ```
 
 This causes the instance to launch a docker container that runs the TF Encrypted server. At this point they are waiting for a configuration to use to connect to other servers.
@@ -35,7 +35,7 @@ This causes the instance to launch a docker container that runs the TF Encrypted
 We can generate and share a configuration file amongst all of the instance with:
 
 ```shell
-./tools/gcp/link $INSTANCE_NAMES
+./link $INSTANCE_NAMES
 ```
 
 This uses the instances external addresses to connect one another and also opens a port on each instance at 4440.
@@ -49,11 +49,11 @@ At this point you can go to back to the notebook `d - Secure Model Serving Cloud
 Once done, the instances can either simply be stopped with:
 
 ```shell
-./tools/gcp/stop $INSTANCE_NAMES
+./stop $INSTANCE_NAMES
 ```
 
 or destroyed entirely with
 
 ```shell
-./tools/gcp/delete $INSTANCE_NAMES
+./delete $INSTANCE_NAMES
 ```
