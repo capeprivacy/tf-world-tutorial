@@ -19,7 +19,7 @@ export INSTANCE_NAMES="server0 server1 server2"
 Next we can launch the instances with a helper script:
 
 ```shell
-./create $INSTANCE_NAMES
+TFE_IMAGE=docker.io/tfencrypted/tf-encrypted:0.6.0-rc0 ./create $INSTANCE_NAMES
 ```
 
 Alternatively, if they have already been created but are currently terminated, simply start them again with
