@@ -11,7 +11,6 @@ i=0
 echo "{" >> /tmp/config.json
 for instance in "${instances[@]}"
 do
-    echo "${instance}"
     if [ "$i" = "$((length-1))" ]; then
         echo "  \"$instance\": \"$port\"" >> /tmp/config.json
     else
