@@ -12,9 +12,9 @@ echo "{" >> /tmp/config.json
 for instance in "${instances[@]}"
 do
     if [ "$i" = "$((length-1))" ]; then
-        echo "  \"$instance\": \"$port\"" >> /tmp/config.json
+        echo "  \"$instance\": \"localhost:$port\"" >> /tmp/config.json
     else
-        echo "  \"$instance\": \"$port\"," >> /tmp/config.json
+        echo "  \"$instance\": \"localhost:$port\"," >> /tmp/config.json
     fi
     port=$((port+1))
     i=$((i+1))
@@ -28,4 +28,6 @@ do
     pids+=( $! )
 done
 
-echo "Run: 'kill ${pids[@]}' to kill the server processes"
+echo ${pids[@]} > servers.pid
+
+echo "When done run './kill_servers.sh' to clean up the running servers."
