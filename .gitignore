@@ -139,6 +139,7 @@ ENV/
 env.bak/
 venv.bak/
 pip-selfcheck.json
+.vscode
 
 # End of https://www.gitignore.io/api/python,virtualenv,jupyternotebooks
 
