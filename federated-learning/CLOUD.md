@@ -4,7 +4,11 @@ This guide will show you how to launch Google Cloud instances to run the federat
 
 If you want to run this part of the tutorial, you will need a [GCP account](https://cloud.google.com/) and to install [Google SDK](https://cloud.google.com/sdk/install).
 
-If not already done you'll need to clone the git repository `https://github.com/tf-encrypted/tf-encrypted`. These commands will be run from within the repo (`cd tf-encrypted/tools/gcp`).
+These commands should be run from `tools/gcp`:
+
+```shell
+cd <repo root>/tools/gcp
+```
 
 ## Running
 
