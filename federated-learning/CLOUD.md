@@ -1,6 +1,6 @@
-# Private Predictions on Google Cloud Platform
+# Federated Learning on Google Cloud Platform
 
-This guide will show you how to launch Google Cloud instances to run private predictions in the cloud.
+This guide will show you how to launch Google Cloud instances to run the federated learning tutorial in the cloud.
 
 If you want to run this part of the tutorial, you will need a [GCP account](https://cloud.google.com/) and to install [Google SDK](https://cloud.google.com/sdk/install).
 
@@ -12,10 +12,10 @@ cd <repo root>/tools/gcp
 
 ## Running
 
-First, we need to specify all of the instance names we need. For private prediction we only need three `server0`, `server1` and `server2`. We export an environement variable called `INSTANCE_NAMES` containing a list of the names.
+First, we need to specify all of the instance names we need. For private prediction we need seven servers three for the secure aggregation, one for the model owner and three for the data owners. We export an environement variable called `INSTANCE_NAMES` containing a list of the names.
 
 ```shell
-export INSTANCE_NAMES="server0 server1 server2"
+export INSTANCE_NAMES="server0 server1 server2 model-owner data-owner-0 data-owner-1 data-owner-2"
 ```
 
 ### Setup instances
@@ -32,7 +32,7 @@ Alternatively, if they have already been created but are currently terminated, s
 ./start $INSTANCE_NAMES
 ```
 
-This causes the instances to launch a docker container that runs the TF Encrypted servers. At this point they are waiting for a configuration file to be used to connect to other servers.
+This causes the instances to launch a docker container that runs the TF Encrypted servers. At this point they are waiting for the configuration file that will be used to connect to other servers.
 
 ### Linking Instances
 
@@ -46,7 +46,7 @@ This uses the instances external addresses to connect one another and also opens
 
 ### Running the Notebooks
 
-At this point you can go to back to the notebook `d - Secure Model Serving Cloud Edition.ipynb` and run the cells there and then back to `c - Private Prediction Client.ipynb` to run the actual prediction.
+At this point you can go to back to the notebook `c - Running Federated Computations in the cloud.ipynb` and run all the cells there to see the federated learning happen.
 
 ### Cleaning Up
 
