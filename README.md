@@ -17,6 +17,7 @@ Attendees will use [TF Encrypted](https://github.com/tf-encrypted/tf-encrypted),
 ## Installation
 
 To run these notebooks you will need to install:
+- UNIX-based OS (e.g. Ubuntu or MacOS)
 - Python 3.6+
 - [TF Encrypted](https://github.com/tf-encrypted/tf-encrypted)
 - [PySyft TensorFlow](https://github.com/OpenMined/PySyft-TensorFlow)
@@ -33,4 +34,4 @@ conda activate ppml
 pip install -r requirements.txt
 ```
 
-If you want to run this tutorial with [Google Cloud Platform](https://cloud.google.com/), you will need a [GCP account](https://cloud.google.com/) and install [Google SDK](https://cloud.google.com/sdk/install). It is also required that you use a UNIX-based OS for running tutorials in the cloud.
+If you want to run this tutorial with [Google Cloud Platform](https://cloud.google.com/), you will need a [GCP account](https://cloud.google.com/) and install [Google SDK](https://cloud.google.com/sdk/install).
