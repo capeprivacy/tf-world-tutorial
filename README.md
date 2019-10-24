@@ -4,7 +4,7 @@
 
 In this tutorial, you will learn how to build and deploy privacy-preserving machine learning models using [TF Encrypted](https://github.com/tf-encrypted/tf-encrypted), [PySyft-TensorFlow](https://github.com/OpenMined/PySyft-TensorFlow), and the [TensorFlow](https://www.tensorflow.org/) ecosystem.
 
-This tutorial was created for the [TensorFlow World conference](https://github.com/tf-encrypted/tf-encrypted) on Tuesday, October the 29th. 
+This tutorial was created for the [TensorFlow World conference](https://github.com/tf-encrypted/tf-encrypted) on Tuesday, October the 29th.
 
 ## Description
 
@@ -33,5 +33,4 @@ conda activate ppml
 pip install -r requirements.txt
 ```
 
-If you want to run this tutorial with [Google Cloud Platform](https://cloud.google.com/), you will need a [GCP account](https://cloud.google.com/) and install [Google SDK](https://cloud.google.com/sdk/install).
-
+If you want to run this tutorial with [Google Cloud Platform](https://cloud.google.com/), you will need a [GCP account](https://cloud.google.com/) and install [Google SDK](https://cloud.google.com/sdk/install). It is also required that you use a UNIX-based OS for running tutorials in the cloud.
