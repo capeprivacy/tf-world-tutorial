@@ -18,6 +18,12 @@ First, we need to specify all of the instance names we need. For private predict
 export INSTANCE_NAMES="server0 server1 server2 model-owner data-owner-0 data-owner-1 data-owner-2"
 ```
 
+If using zshell instead of bash, you can switch the above assignment to:
+
+```shell
+export INSTANCE_NAMES=( server0 server1 crypto-producer model-owner data-owner-0 data-owner-1 data-owner-2 )
+```
+
 ### Setup instances
 
 Next we can launch the instances with a helper script:

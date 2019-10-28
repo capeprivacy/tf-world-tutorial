@@ -17,6 +17,11 @@ First, we need to specify all of the instance names we need. For private predict
 ```shell
 export INSTANCE_NAMES="server0 server1 server2"
 ```
+If using zshell instead of bash, you can switch the above assignment to:
+
+```shell
+export INSTANCE_NAMES=( server0 server1 server2 )
+```
 
 ### Setup instances
 
