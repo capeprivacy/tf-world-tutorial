@@ -4,7 +4,7 @@
 
 In this tutorial, you will learn how to build and deploy privacy-preserving machine learning models using [TF Encrypted](https://github.com/tf-encrypted/tf-encrypted), [PySyft-TensorFlow](https://github.com/OpenMined/PySyft-TensorFlow), and the [TensorFlow](https://www.tensorflow.org/) ecosystem.
 
-This tutorial was created for the [TensorFlow World conference](https://conferences.oreilly.com/tensorflow/tf-ca/public/schedule/detail/78557) on Tuesday, October the 29th.
+This tutorial was created for the [TensorFlow World conference](https://conferences.oreilly.com/tensorflow/tf-ca/public/schedule/detail/78557) on Tuesday, October the 29th 2019 at 1:30pm PST.
 
 ## Description
 
