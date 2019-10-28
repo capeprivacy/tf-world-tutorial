@@ -2,7 +2,7 @@
 
 This guide will show you how to launch Google Cloud instances to run the federated learning tutorial in the cloud.
 
-If you want to run this part of the tutorial, you will need a [GCP account](https://cloud.google.com/) and to install [Google SDK](https://cloud.google.com/sdk/install).
+If you want to run this part of the tutorial, you will need a [GCP account](https://cloud.google.com/) and to install [Google SDK](https://cloud.google.com/sdk/install). See [here](../README.md#google-cloud-installation) for a quick reference.
 
 These commands should be run from `tools/gcp`:
 

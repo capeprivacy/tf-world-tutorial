@@ -28,10 +28,42 @@ To run these notebooks you will need to install:
 To install all these dependencies you can simply run: `pip3 install -r requirements.txt`.
 
 To manage dependencies, you can use a virtual environment like `venv` or a package manager like `conda`.  Here's an example using `conda`:
+
 ```
 conda create -n ppml python=3.7
 conda activate ppml
 pip install -r requirements.txt
 ```
 
-If you want to run this tutorial with [Google Cloud Platform](https://cloud.google.com/), you will need a [GCP account](https://cloud.google.com/) and install [Google SDK](https://cloud.google.com/sdk/install).
+### Google Cloud Installation
+
+If you want to run this tutorial with [Google Cloud Platform](https://cloud.google.com/), you will need a [GCP account](https://cloud.google.com/) and install [Google SDK](https://cloud.google.com/sdk/install). See below for a quick reference to the installation procedure.
+
+Run the following commands based on your OS to install gcloud tool.
+
+**MacOS**
+
+```shell
+brew cask install google-cloud-sdk
+```
+
+**Debian/Ubuntu**
+
+```shell
+echo "deb [signed-by=/usr/share/keyrings/cloud.google.gpg] https://packages.cloud.google.com/apt cloud-sdk main" | sudo tee -a /etc/apt/sources.list.d/google-cloud-sdk.list
+sudo apt-get install apt-transport-https ca-certificates curl
+curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key --keyring /usr/share/keyrings/cloud.google.gpg add -
+sudo apt-get update && sudo apt-get install google-cloud-sdk
+```
+
+**Initialize gcloud (Any OS)**
+
+Run the following command to initialize your Google Cloud configuration. You will have to complete the following:
+
+- Log into the account created above.
+- Set your default project to use, it will prompt you to create one if you haven't already made one.
+- Set your default zone and region to use.
+
+```
+gcloud init
+```
