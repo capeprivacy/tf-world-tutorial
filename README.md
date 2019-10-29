@@ -6,6 +6,8 @@ In this tutorial, you will learn how to build and deploy privacy-preserving mach
 
 This tutorial was created for the [TensorFlow World conference](https://conferences.oreilly.com/tensorflow/tf-ca/public/schedule/detail/78557) on Tuesday, October the 29th 2019 at 1:30pm PST.
 
+Please join the [TF Encrypted Slack](https://join.slack.com/t/tf-encrypted/shared_invite/enQtNjI5NjY5NTc0NjczLWM4MTVjOGVmNGFkMWU2MGEzM2Q5ZWFjMTdmZjdmMTM2ZTU4YjJmNTVjYmE1NDAwMDIzMjllZjJjMWNiMTlmZTQ). We will be answering questions in the `tf-world-2019` channel!
+
 ## Description
 
 Today, we’re trying to take advantage of machine learning across many facets of modern life. However, many of our most impactful uses of machine learning in health care, transportation, and finance are blocked as they require access to sensitive data. In this tutorial, attendees will learn how to use [TF Encrypted](https://github.com/tf-encrypted/tf-encrypted) and [PySyft](https://github.com/OpenMined/PySyft-TensorFlow) to train and deploy machine learning models using remote execution, secure federated learning, and encrypted predictions in the cloud while preserving the privacy of both the model and the end user’s input data.
