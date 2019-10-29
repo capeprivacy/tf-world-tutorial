@@ -37,6 +37,13 @@ conda activate ppml
 pip install -r requirements.txt
 ```
 
+The tutorial consists of three sequential parts:
+1. `remote-execution`
+2. `federated-learning`
+3. `private-prediction`
+
+You can access and execute each step in the tutorial from the Jupyter console by running the command `jupyter notebook` from the root directory.
+
 ### Google Cloud Installation
 
 If you want to run this tutorial with [Google Cloud Platform](https://cloud.google.com/), you will need a [GCP account](https://cloud.google.com/) and install [Google SDK](https://cloud.google.com/sdk/install). See below for a quick reference to the installation procedure.
