@@ -44,6 +44,8 @@ The tutorial consists of three sequential parts:
 
 You can access and execute each step in the tutorial from the Jupyter console by running the command `jupyter notebook` from the root directory.
 
+You can find the presentation slides [here](TensorFlow-World-Tutorial-2019-final.pdf).
+
 ### Google Cloud Installation
 
 If you want to run this tutorial with [Google Cloud Platform](https://cloud.google.com/), you will need a [GCP account](https://cloud.google.com/) and install [Google SDK](https://cloud.google.com/sdk/install). See below for a quick reference to the installation procedure.
